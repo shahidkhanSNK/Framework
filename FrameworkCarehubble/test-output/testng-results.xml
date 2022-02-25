@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done and Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Appplication is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed and Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-24T16:23:20 EST" name="Default suite" finished-at="2022-02-24T16:23:35 EST" duration-ms="15045">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T16:23:20 EST" name="Default test" finished-at="2022-02-24T16:23:35 EST" duration-ms="15045">
+      <class name="Test.Testcases">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:Test.Testcases@50b5ac82]" started-at="2022-02-24T16:23:18 EST" name="setupsuite" finished-at="2022-02-24T16:23:20 EST" duration-ms="1709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done and Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method is-config="true" signature="setuptest()[pri:0, instance:Test.Testcases@50b5ac82]" started-at="2022-02-24T16:23:20 EST" name="setuptest" finished-at="2022-02-24T16:23:29 EST" duration-ms="9669" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Appplication is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method signature="loginwithInvalidEmail()[pri:0, instance:Test.Testcases@50b5ac82]" started-at="2022-02-24T16:23:29 EST" name="loginwithInvalidEmail" finished-at="2022-02-24T16:23:33 EST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmail -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:Test.Testcases@50b5ac82]" started-at="2022-02-24T16:23:33 EST" name="teardownMethod" finished-at="2022-02-24T16:23:34 EST" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginwithInvalidEmail status=SUCCESS method=Testcases.loginwithInvalidEmail()[pri:0, instance:Test.Testcases@50b5ac82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed and Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method is-config="true" signature="teardowntest()[pri:0, instance:Test.Testcases@50b5ac82]" started-at="2022-02-24T16:23:34 EST" name="teardowntest" finished-at="2022-02-24T16:23:35 EST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- Test.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

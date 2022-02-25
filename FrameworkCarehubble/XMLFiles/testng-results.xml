@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-24T05:11:21 EST" name="Default suite" finished-at="2022-02-24T05:11:35 EST" duration-ms="14047">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T05:11:21 EST" name="Default test" finished-at="2022-02-24T05:11:35 EST" duration-ms="14047">
+      <class name="Test.Testcases">
+        <test-method is-config="true" signature="setuptest()[pri:0, instance:Test.Testcases@193f604a]" started-at="2022-02-24T05:11:21 EST" name="setuptest" finished-at="2022-02-24T05:11:31 EST" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method signature="loginwithInvalidEmail()[pri:0, instance:Test.Testcases@193f604a]" started-at="2022-02-24T05:11:31 EST" name="loginwithInvalidEmail" finished-at="2022-02-24T05:11:34 EST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidEmail -->
+        <test-method is-config="true" signature="teardowntest()[pri:0, instance:Test.Testcases@193f604a]" started-at="2022-02-24T05:11:34 EST" name="teardowntest" finished-at="2022-02-24T05:11:35 EST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- Test.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
