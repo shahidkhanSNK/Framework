@@ -13,6 +13,7 @@ public class LoginPage extends BaseClass {
 	private By errorMessageLocator = By.cssSelector("div.notif-msg.d-flex");
 	private By validationMessageLocator = By.cssSelector("span.error.error-feedback");
 	private By continueButtonLocator = By.id("continue");
+	private By headingTextLocator = By.tagName("h3");
 	
 	
 	public LoginPage(WebDriver browserDriver) {
@@ -60,6 +61,13 @@ public class LoginPage extends BaseClass {
 		String pageTitle = browser.getTitle();
 		System.out.println(pageTitle);
 		return pageTitle;
+	}
+	
+	public String getHeadingText() {
+		wait.until(ExpectedConditions.visibilityOfElementLocated(continueButtonLocator));
+		String headingText = browser.findElement(headingTextLocator).getText();
+		System.out.println(headingText);
+		return headingText;
 	}
 
 }

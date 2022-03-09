@@ -18,7 +18,7 @@ public class SecurityCodeScreen extends BaseClass {
 	public SecurityCodeScreen(WebDriver browserDriver) {
 		super(browserDriver);
 		// wait for page to load
-		wait.until(ExpectedConditions.elementToBeClickable(continueButtonLocator));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(codeTextBoxesLocator));
 	}
 	
 	public List<WebElement> getSecurityCodeTextBoxes(){
